@@ -1,0 +1,23 @@
+
+[theme]
+primaryColor="#17A2B8"
+backgroundColor="#FFFFFF"
+secondaryBackgroundColor="#F7F9FC"
+textColor="#34495E"
+
+[server]
+runOnSave = true
+
+[browser]
+gatherUsageStats = false
+
+[pages]
+order = [
+    "01_Data_metrics.py",
+    "02_Data_preprocessing.py",
+    "03_Data_augmentation.py",
+    "04_Feature_engineering.py",
+    "05_Algorithm_selection.py",
+    "06_Model_training.py",
+    "07_Augmented_data_app.py"
+]
